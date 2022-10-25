@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Noto+Sans+Avestan&family=Silkscreen&display=swap');
+
+
+html,body{
+      font-family:'Noto Sans Avestan', sans-serif;     
+}
+
+.titulo{
+      padding: 10px;
+      font-family: cursive;
+      text-align: center;
+      font-size: 10px;
+}
+.chat{
+      width: 50px;
+}
+/* NOME DOS USUÁRIOS DA CONVERSA */
+.caixa1{
+      border: 1px solid grey;      
+      background-image: linear-gradient(to right, rgb(149, 150, 151) , rgb(254, 255, 254));
+      height: 530px;
+      margin-right:78%;
+      margin-bottom: 158px;
+      width: 29.5%;
+      border-radius: 5px;   
+}
+
+.nome{
+      font-family:  Arial;
+      border: 1px solid grey; 
+      padding: 3px;
+      font-size: 20px;    
+      height: 53px; 
+      border-radius: 3px;  
+      text-align: right;
+}
+
+.nome:hover{
+      color:white;
+      background-color:rgb(230, 57, 57) ;
+      border-radius: 8px;
+      transform: scale(1.03);
+}
+
+.usuario{
+      width: 48px;
+      position: absolute;
+      display: flex;     
+}
+
+/*CHAT CONVERSA*/
+.caixa2{
+      margin-top: -688px;
+      margin-left:30%;         
+      background-image: linear-gradient(to top, rgba(116, 173, 230, 0.521) , rgba(201, 201, 201, 0.336));
+      border: 3px solid rgb(95, 97, 95);   
+      height: 530px;
+      width: 69.5%;
+      border-radius: 5px;
+      padding: 6%;  
+      overflow-x: auto    
+}
+
+.conversa1{
+      margin-left: 60%;
+      margin-right: 7%;
+      font-size: 1.3em;
+      color: white;
+      background-color: rgb(81, 122, 81);
+      border-radius: 8px;
+      padding-left: 5px;
+      width: 45%;
+     /* border: 1px solid green;*/
+}
+
+.conversa2{
+      /*border: 1px solid green;*/
+      margin-right: 60%;
+      margin-left: 7%;
+      font-size: 1.3em;
+      color: white;
+      background-color: rgb(112, 110, 110);     
+      border-radius: 8px;
+      padding-left: 5px;
+      width: 45%;
+}
+
+.caixa3{
+      margin-top: 0.5%;
+      margin-left: 35%;           
+}
+
+input{
+      background-color: rgb(230, 232, 233);
+      width: 88%;
+      height: 55px;
+      border-radius: 10px;   
+      border: 1px solid rgb(142, 143, 142);  
+      
+}
+
+#botao{
+      font-size: auto;
+     font-weight: 500;
+     width: 10%;
+}
+
+#botao:hover{
+      background-color: rgb(23, 117, 44);
+      border: none;
+}
+
